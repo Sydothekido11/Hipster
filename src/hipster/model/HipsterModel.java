@@ -17,9 +17,33 @@ public class HipsterModel
 	{
 		hipsterPhrases[0] = "Coachellaaaaa.";
 		hipsterPhrases[1] = "I work at a record store";
-		hipsterPhrases[2] = "I spend most of my time thinking about free the nipple.";
+		hipsterPhrases[2] = "That is so mainstream.";
 		hipsterPhrases[3] = "Bob Dylaaaannnn";
 	}
+
+	public String getName()
+	{
+		return name;
+	}
+
+	public void setName(String name)
+	{
+		this.name = name;
+	}
+
+	public String[] getHipsterPhrases()
+	{
+		return hipsterPhrases;
+	}
+
+	public void setHipsterPhrases(String[] hipsterPhrases)
+	{
+		this.hipsterPhrases = hipsterPhrases;
+	}
+
+
+
+
 	
 	
 }
